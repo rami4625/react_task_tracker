@@ -1,6 +1,6 @@
 import Task from './Task';
 
-const Tasks = ({ tasks, onDelete }) => {
+const Tasks = ({ tasks, onDelete, onToggle }) => {
   return (
     <>
       {tasks.map(item =>
@@ -8,6 +8,7 @@ const Tasks = ({ tasks, onDelete }) => {
           key={item.id}
           task={item}
           onDelete={onDelete}
+          onToggle={onToggle}
         />
       )}
     </>
