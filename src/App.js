@@ -20,12 +20,12 @@ function App() {
   ]);
 
   // Delete Task
-  const deleteTask = (id) => {
+  const deleteTask = id => {
     setTasks(tasksState.filter(item => item.id !== id));
   }
 
   // Toggle Reminder
-  const toggleReminder = (id) => {
+  const toggleReminder = id => {
     setTasks(tasksState.map(item =>
       item.id === id ?
       {...item, reminder: !item.reminder} :
@@ -34,7 +34,7 @@ function App() {
   }
 
   // Add Task
-  const addTask = (task) => {
+  const addTask = task => {
     const id = Math.floor(Math.random() * 10000) + 1;
     const newTask = {id, ...task};
     setTasks([...tasksState, newTask]);
