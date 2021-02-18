@@ -14,7 +14,7 @@ function App() {
       setTasks(tasksFromServer);
     }
     getTasks()
-  }, [])
+  }, []);
 
   // Fetch Tasks
   const fetchTasks = async () => {
