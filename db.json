@@ -11,6 +11,12 @@
       "name": "Swiming",
       "day": "Feb 6th at 2:00PM",
       "reminder": false
+    },
+    {
+      "name": "Play Guitar",
+      "day": "Sunday 6:00PM",
+      "reminder": true,
+      "id": 3
     }
   ]
 }
