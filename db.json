@@ -10,7 +10,7 @@
       "id": 2,
       "name": "Swiming",
       "day": "Feb 6th at 2:00PM",
-      "reminder": false
+      "reminder": true
     },
     {
       "name": "Play Guitar",

@@ -31,13 +31,32 @@ function App() {
     setTasks(tasksState.filter(item => item.id !== id));
   }
 
+  // Fetch Task
+  const fetchTask = async (id) => {
+    const response = await fetch(`http://localhost:5000/tasks/${id}`)
+    const data = await response.json()
+    return data
+  }
+
   // Toggle Reminder
-  const toggleReminder = id => {
+  const toggleReminder = async (id) => {
+    const taskToToggle = await fetchTask(id)
+    const updateTask = {...taskToToggle, reminder: !taskToToggle.reminder}
+
+    const response = await fetch(`http://localhost:5000/tasks/${id}`, {
+      method: 'PUT',
+      headers: {
+        'Content-type': 'application/json'
+      },
+      body: JSON.stringify(updateTask)
+    })
+    const data = await response.json()
+
     setTasks(tasksState.map(item =>
       item.id === id ?
-      {...item, reminder: !item.reminder} :
+      {...item, reminder: data.reminder} :
       item
-    ));
+    ))
   }
 
   // Add Task
