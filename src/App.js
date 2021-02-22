@@ -54,7 +54,7 @@ function App() {
 
     setTasks(tasksState.map(item =>
       item.id === id ?
-      {...item, reminder: data.reminder} :
+      {...data} :
       item
     ))
   }

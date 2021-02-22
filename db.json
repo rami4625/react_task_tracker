@@ -1,20 +1,14 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "name": "Training",
-      "day": "Feb 4th at 6:00PM",
-      "reminder": true
+      "name": "Other",
+      "day": "2021-02-18T00:04",
+      "reminder": true,
+      "id": 2
     },
     {
-      "id": 2,
-      "name": "Swiming",
-      "day": "Feb 6th at 2:00PM",
-      "reminder": true
-    },
-    {
-      "name": "Play Guitar",
-      "day": "Sunday 6:00PM",
+      "name": "hfgh",
+      "day": "2020-12-27T00:03",
       "reminder": true,
       "id": 3
     }
