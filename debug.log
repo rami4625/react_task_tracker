@@ -11,3 +11,4 @@
 [0221/100719.615:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
 [0221/100719.699:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Rami\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\8ed2b8a9-41d8-4fbc-a4f6-7ae0cdc8c807: The system cannot find the path specified. (0x3)
 [0222/095934.211:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0223/100456.598:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)

@@ -110,3 +110,11 @@ footer {
   margin-top: 30px;
   text-align: center;
 }
+
+footer a {
+  transition: all .2s ease-in-out;
+}
+
+footer a:hover {
+  background-color: #52778c!important;
+}

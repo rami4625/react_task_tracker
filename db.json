@@ -1,16 +1,10 @@
 {
   "tasks": [
     {
-      "name": "Other",
-      "day": "2021-02-18T00:04",
+      "name": "Tea",
+      "day": "2021-02-23T15:03",
       "reminder": true,
-      "id": 2
-    },
-    {
-      "name": "hfgh",
-      "day": "2020-12-27T00:03",
-      "reminder": true,
-      "id": 3
+      "id": 1
     }
   ]
 }
