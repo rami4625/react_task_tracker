@@ -10,8 +10,8 @@ const About = () => {
 
   return (
     <div>
-      <h3 style={{marginBottom: '10px'}}>Version: 1.0.0</h3>
       <Link to="/" style={linkStyle}><FaArrowLeft /> Go Back</Link>
+      <h3 style={{marginTop: '10px'}}>Version: 1.0.0</h3>
     </div>
   )
 }
