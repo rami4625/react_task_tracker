@@ -9,7 +9,7 @@ const AddTask = ({ onAdd }) => {
     e.preventDefault();
 
     if(!name) {
-      alert('Please Add A Take');
+      alert('Please Add A Task');
       return
     }
 
