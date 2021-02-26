@@ -89,7 +89,7 @@ function App() {
           onClickAdd={() => setShowAddTask(!showAddTask)}
         />
 
-        <Route path="/" exact render={(props) => (
+        <Route path="/" exact render={(props) =>
           <>
             {showAddTask && <AddTask onAdd={addTask} />}
 
@@ -101,9 +101,9 @@ function App() {
             /> :
             'There is No Tasks'}
           </>
-        )} />
+        } />
 
-        <Route path='/about' component={About} />
+        <Route path="/about" component={About} />
 
         <Footer />
 
